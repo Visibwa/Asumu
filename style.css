@@ -1,0 +1,11 @@
+.landing-page{
+    background-color: rgb(207, 128, 38);
+    color: rgb(145, 16, 91);
+}
+p{
+    border: 5px solid rgb(11, 146, 22);
+    margin: 20px;
+    padding: 20px;
+    font-size: 25x;
+}
+   
