@@ -8,4 +8,26 @@ p{
     padding: 20px;
     font-size: 25x;
 }
+
    
+.navigation{
+    display: flex;
+    background-color: black;
+    overflow-x: scroll;
+}
+
+.navigation::-webkit-scrollbar{
+    display: none;
+}
+ 
+.navigation > li {
+    color: antiquewhite;
+    margin-right: 10px;
+    list-style: none;
+    text-wrap: nowrap;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.navigation > li:hover {
+    background-color: rgb(23, 150, 54);
+}
